@@ -1,0 +1,18 @@
+.composeContainer {
+    padding: 20px;
+  }
+  
+  .composeForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sendButton {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  

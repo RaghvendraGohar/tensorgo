@@ -1,0 +1,30 @@
+.dashboardContainer {
+    padding: 20px;
+  }
+  
+  .emailList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .emailItem {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timestamp {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .composeButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #007bff;
+    border-radius: 5px;
+  }
+  
