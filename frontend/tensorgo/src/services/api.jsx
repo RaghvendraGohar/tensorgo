@@ -1,6 +1,6 @@
 import axios from "axios";
-const baseURL = "";
-const API = axios.create({ baseURL: "/api" });
+
+const API = axios.create({ baseURL: "https://tensorgo-fmbl.onrender.com/api" });
 
 export const getCommunicationHistory = async () => {
   const response = await API.get("/emails/history");
